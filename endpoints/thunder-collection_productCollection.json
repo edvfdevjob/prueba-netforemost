@@ -1,0 +1,134 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "productCollection",
+    "dateExported": "2023-10-20T21:28:08.108Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "74268d6a-f20b-40ae-b427-414e2222ac6b",
+            "colId": "c2d3018d-3e2e-4455-a083-d8e6b95816cb",
+            "containerId": "",
+            "name": "http://prueba-netforemost.test/api/productList/",
+            "url": "http://prueba-netforemost.test/api/productList/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-10-20T21:21:25.566Z",
+            "modified": "2023-10-20T21:21:25.566Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c9cba15f-750c-4c6c-97ba-da351ba399ce",
+            "colId": "c2d3018d-3e2e-4455-a083-d8e6b95816cb",
+            "containerId": "",
+            "name": "http://prueba-netforemost.test/api/product/details/1",
+            "url": "http://prueba-netforemost.test/api/product/delete/1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-10-20T21:24:22.342Z",
+            "modified": "2023-10-20T21:25:54.522Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "laptop apple"
+                    },
+                    {
+                        "name": "barcode",
+                        "value": "93848484"
+                    },
+                    {
+                        "name": "price",
+                        "value": "345"
+                    },
+                    {
+                        "name": "description",
+                        "value": "un gran catalogo"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2529d0b9-8df4-4fca-b180-2e7f59e5f16a",
+            "colId": "c2d3018d-3e2e-4455-a083-d8e6b95816cb",
+            "containerId": "",
+            "name": "http://prueba-netforemost.test/api/product/details/1",
+            "url": "http://prueba-netforemost.test/api/product/edit/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-10-20T21:25:34.558Z",
+            "modified": "2023-10-20T21:25:34.558Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "laptop apple s"
+                    },
+                    {
+                        "name": "barcode",
+                        "value": "93848484",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "price",
+                        "value": "345",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "description",
+                        "value": "un gran catalogo",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a03de12f-df3d-4cf9-a736-6d9ca65dbdbc",
+            "colId": "c2d3018d-3e2e-4455-a083-d8e6b95816cb",
+            "containerId": "",
+            "name": "create",
+            "url": "http://prueba-netforemost.test/api/product/create",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-10-20T21:27:21.654Z",
+            "modified": "2023-10-20T21:27:21.654Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "pentium"
+                    },
+                    {
+                        "name": "barcode",
+                        "value": "333333"
+                    },
+                    {
+                        "name": "price",
+                        "value": "4356"
+                    },
+                    {
+                        "name": "description",
+                        "value": "una gran herramienta"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
