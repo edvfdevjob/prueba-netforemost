@@ -55,12 +55,7 @@ class ProductController extends Controller
         
         if($id){
             $product = Product::find($id);
-
-            $request->validate([
-                'name' => 'nullable|unique:products',
-                'barcode' => 'nullable|unique:products',
-            ]);
-
+            
             $request->input('name') ? $product->name = $request->input('name') : null;
             $request->input('description') ? $product->description = $request->input('description') : null;
             $request->input('price') ? $product->price = $request->input('price') : null;
